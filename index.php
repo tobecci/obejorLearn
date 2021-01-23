@@ -1,5 +1,6 @@
 <?php
-require_once("./config/config.php");
+define("SITE_PATH", "/srv/http/learn/");
+require_once(SITE_PATH."/config/config.php");
 ?>
     <a href="<?php echo(SITE_URL); ?>pages/login.php">
         <button>Login</button>
